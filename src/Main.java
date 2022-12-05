@@ -61,5 +61,41 @@ public class Main {
                 System.out.print(apart[i] + ", ");
             }
         }
+        System.out.println();
+        System.out.println();
+
+        //task №3
+        System.out.println("Задача №3");
+        int [] orders = new int [3];
+        orders[0] = 1;
+        orders[1] = 2;
+        orders[2] = 3;
+        for (int i = orders.length - 1; i >= 0; i--) {
+            if (i != 0) {
+                System.out.print(orders[i] + ", ");
+            } else {
+                System.out.print(orders[i]);
+            }
+        }
+        System.out.println();
+
+        double [] fractionalNumberNumbers = {1.57, 7.654, 9.986};
+        for (int i = fractionalNumberNumbers.length - 1; i >= 0; i--) {
+            if (i != 0) {
+                System.out.print(fractionalNumberNumbers[i] + ", ");
+            } else {
+                System.out.print(fractionalNumberNumbers[i]);
+            }
+        }
+        System.out.println();
+
+        int [] flats = {11, 12, 13, 21, 22, 23, 31, 32, 33};
+        for (int i = flats.length - 1; i >= 0; i--) {
+            if (i != 0) {
+                System.out.print(flats[i] + ", ");
+            } else {
+                System.out.print(flats[i]);
+            }
+        }
     }
 }
