@@ -97,5 +97,21 @@ public class Main {
                 System.out.print(flats[i]);
             }
         }
+        System.out.println();
+        System.out.println();
+
+        //task №4
+        System.out.println("Задача №4");
+        int [] numbers1 = new int [3];
+        numbers1[0] = 1;
+        numbers1[1] = 2;
+        numbers1[2] = 3;
+        for (int i = 0; i < 3; i++) {
+            if (numbers1[i] % 2 != 0) {
+                numbers1[i] += 1;
+            }
+            System.out.print(numbers1[i] + " ");
+        }
+        System.out.println();
     }
 }
